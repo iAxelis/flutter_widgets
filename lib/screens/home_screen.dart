@@ -27,7 +27,9 @@ class HomeScreen extends StatelessWidget {
             leading: Icon(Icons.ac_unit_rounded),
             title: Text("colums & Rows"),
             trailing: Icon(Icons.arrow_forward_ios),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushNamed(context, 'columsrows');
+            },
           ),
         ],
       ),
