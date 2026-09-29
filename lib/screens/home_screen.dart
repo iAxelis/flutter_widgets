@@ -31,6 +31,14 @@ class HomeScreen extends StatelessWidget {
               Navigator.pushNamed(context, '/columsrows');
             },
           ),
+          ListTile(
+            leading: Icon(Icons.sd_card_alert),
+            title: Text("Cards Screen"),
+            trailing: Icon(Icons.arrow_forward_ios),
+            onTap: () {
+              Navigator.pushNamed(context, '/cards');
+            },
+          ),
         ],
       ),
     );

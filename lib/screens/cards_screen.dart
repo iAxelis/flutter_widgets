@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ColumsScreen extends StatelessWidget {
-  const ColumsScreen({super.key});
+class CardsScreen extends StatelessWidget {
+  const CardsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Menu de colums and arrows"),
+        title: Text("cards"),
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white70,
         centerTitle: true,

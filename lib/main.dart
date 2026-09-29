@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/screens/buttons_screen.dart';
+import 'package:flutter_widgets/screens/cards_screen.dart';
 import 'package:flutter_widgets/screens/colums_screen.dart';
 import 'package:flutter_widgets/screens/home_screen.dart';
 
@@ -19,6 +20,7 @@ class MainApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/buttons': (context) => ButtonsScreen(),
         '/columsrows': (context) => ColumsScreen(),
+        '/cards': (context) => CardsScreen(),
       },
     );
   }
